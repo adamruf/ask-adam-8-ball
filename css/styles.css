@@ -30,3 +30,5 @@ p {
   cursor: pointer;
   margin-bottom: -2rem;
   max-width: 200px; }
+  .crystal-ball:hover, .crystal-ball:active, .crystal-ball:focus {
+    transform: scale(1.2); }
