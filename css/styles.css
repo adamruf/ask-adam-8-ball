@@ -27,5 +27,6 @@ p {
   padding: 3rem 2rem; }
 
 .crystal-ball {
+  cursor: pointer;
   margin-bottom: -2rem;
   max-width: 200px; }
