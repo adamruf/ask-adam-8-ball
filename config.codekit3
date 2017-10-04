@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25900",
 "files": {
+	"\/ask-adam-8-ball.sketch": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/ask-adam-8-ball.sketch",
+		"oF": 0
+		},
 	"\/css\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -18,6 +24,39 @@
 		"oAP": "\/css\/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/img\/adam-emote.png": {
+		"ft": 32768,
+		"iS": 13452,
+		"oA": 0,
+		"oAP": "\/img\/adam-emote.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/crystal-ball-bg.png": {
+		"ft": 32768,
+		"iS": 151527,
+		"oA": 0,
+		"oAP": "\/img\/Desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/crystal-ball-bg@2x.png": {
+		"ft": 32768,
+		"iS": 467222,
+		"oA": 0,
+		"oAP": "\/img\/crystal-ball-bg@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/fortune-teller-bg.jpg": {
 		"ft": 16384,
