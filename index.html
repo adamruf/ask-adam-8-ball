@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ask ux_adam Anything</title>
+  <link href="https://fonts.googleapis.com/css?family=Carter+One|Chewy|Freckle+Face|Playfair+Display:900|Rye" rel="stylesheet">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <!-- <h1>Ask ux_adam Anything</h1> -->
+        <button class="btn btn-light js-crystal-ball">Ask Adam Anything</button>
+        <!-- <img class="js-crystal-ball crystal-ball" src="http://uxdesigncontest.com/img/banner-ux-design-contest@2x.png" alt="Crystal ball or Adam's face or something"> -->
+      </div>
+      <div class="col-md-6 answer-wrapper">
+        <p id="answer" style="display: none;">Here's where my answer will go</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script>
+    $(".js-crystal-ball").on("click",function(){
+
+      $("#answer").css("display", "block");
+      // $("#blank").css("display", "none");
+    });
+
+    var localNameSpace = function() {
+        var obliqueStrategy = [
+            'Correct'
+          , 'Yep'
+          , 'Nope'
+          , 'Definitely'
+          , 'I\'m not sure about that one'
+          , 'I don\'t feel strongly either way.'
+          , 'I think you should seek medical advice on that one. Have you heard of Carbon Health?'
+          , 'I recommend getting legal help with that one.'
+          , 'What did Alexa say when you asked her?'
+          , 'Yes, and then we can finally make a dent in our Netflix queues'
+          , 'WDYT?'
+          , 'Why?'
+          , 'Try cutting the characters in your question by 50% and then ask again.'
+          , 'Have you tried getting feedback from Usability Hub?'
+          , 'This sounds like a perfect question for your manager.'
+          , 'Sorry, I was distracted by the adorable corgi that just tottled by, please ask again.'
+          // , 'はい、そうですね。'
+          // , 'いいえ、違います。'
+          // , '是的。'
+          // , '没门儿。'
+          // , '没错。'
+          // , '有可能吧。'
+          // , '(⊙o⊙)'
+          // , 'C\'est possible.'
+          , 'C\'est impossible.'
+          , 'Non.'
+          , 'Oui.'
+          , 'How would you answer that if I wasn\'t here?'
+          , 'That\'s a great question. I wish I had an answer for you.'
+          , 'I\'d like some time to think about that. Can I get back to you tomorrow?'
+          , 'I don\'t know. Who else can we ask?'
+          , 'That information\'s above my pay grade.'
+          , 'Sorry, I don\'t know the answer to that one. I\'m just a few lines of JavaScript, not a clairvoyant.'
+          , 'Trust your gut.'
+          , 'That\'s a tough one. How about an easier question to warm up with?'
+          , 'Can I get back to you after lunch? It\'s build-your-own tacos today! 🌮'
+          , 'I\'m gonna be direct. There\'s no way that will work unless I\'m wrong.'
+        ];
+
+        var api = {
+            bindButtonAction: function() {
+                $('.js-crystal-ball').click(api.generateRandomStrategy);
+            }
+
+            , generateRandomStrategy: function() {
+                var randomOffset = Math.floor(Math.random() * 100) % obliqueStrategy.length;
+                $('#answer').html( obliqueStrategy[randomOffset] );
+            }
+
+
+        };
+
+        return api;
+    }();
+
+  $(document).ready(function() {
+      localNameSpace.bindButtonAction();
+      localNameSpace.generateRandomStrategy();
+  });
+</script>
+<!-- <script>
+  $( document ).ready(function() {
+    var myArray = ['Correct'
+    , 'Yep', 'Nope', 'Definitely', 'I\'m not sure about that one', 'I don\'t feel strongly either way.' , 'I think you should seek medical advice on that one. Have you heard of Carbon Health?', 'I recommend getting legal help with that one.' , 'What did Alexa say when you asked her?', 'Yes, and then we can finally make a dent in our Netflix queues', 'WDYT?', 'Why?', 'Try cutting the characters in your question by 50% and then ask again.', 'Have you tried getting feedback from Usability Hub?', 'This sounds like a perfect question for your manager.', 'Sorry, I was distracted by the adorable corgi that just tottled by, please ask again.', 'はい、そうですね。', 'いいえ、違います。', '是的。', '没门儿。', '没错。', '有可能吧。', '(⊙o⊙)', 'C\'est possible.', 'C\'est impossible.', 'Non.', 'Oui.', 'How would you answer that if I wasn\'t here?', 'That\'s a great question. I wish I had an answer for you.', 'I\'d like some time to think about that. Can I get back to you tomorrow?', 'I don\'t know. Who else can we ask?', 'That information\'s above my pay grade.', 'Sorry, I don\'t know the answer to that one. I\'m just a few lines of JavaScript, not a clairvoyant.', 'Trust your gut.', 'That\'s a tough one. How about an easier question to warm up with?', 'Can I get back to you after lunch? It\'s build-your-own tacos today! 🌮', 'I\'m gonna be direct. There\'s no way that will work unless I\'m wrong.'];
+    var rand = myArray[Math.floor(Math.random() * myArray.length)];
+
+    function showanswer(){
+      document.getElementById('answer').innerHTML = myArray[rand];
+    }
+
+    $( ".js-crystal-ball" ).on("click",function() {
+    showanswer();
+  });
+});
+</script> -->
+</body>
+</html>

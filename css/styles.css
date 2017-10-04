@@ -1,0 +1,21 @@
+body {
+  background-image: url(../img/fortune-teller-bg.jpg);
+  background-size: cover;
+  font-family: 'Rye', cursive;
+  padding: 6rem; }
+
+h1 {
+  font-size: 2rem; }
+
+p {
+  font-size: 4rem; }
+
+.answer-wrapper {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 2rem;
+  padding: 2rem; }
+
+.crystal-ball {
+  background-color: #fafafa;
+  height: 20rem;
+  width: 20rem; }
