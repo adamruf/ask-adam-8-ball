@@ -19,8 +19,8 @@ p {
 
 .crystal-ball {
   cursor: pointer;
-  margin-bottom: -2rem;
-  max-width: 200px;
+  margin-bottom: -4rem;
+  max-width: 365px;
   transition: all 0.3s ease-in-out; }
   .crystal-ball:hover, .crystal-ball:active, .crystal-ball:focus {
     transform: scale(1.1);
