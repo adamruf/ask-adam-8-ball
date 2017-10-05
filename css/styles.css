@@ -8,6 +8,9 @@ body {
   padding: calc(2rem + 5vw);
   padding-bottom: 0;
   padding-top: 5rem; }
+  @media (max-width: 400px) {
+    body {
+      padding-top: 2rem; } }
   body::before {
     content: '';
     position: absolute;
