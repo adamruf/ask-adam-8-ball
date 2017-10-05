@@ -10,7 +10,8 @@ body {
 a {
   color: #5573bb; }
   a:hover, a:active, a:focus {
-    color: white; }
+    color: white;
+    text-decoration: none; }
 
 .dark-text {
   color: #5573bb; }
@@ -32,3 +33,6 @@ a {
   .crystal-ball:hover, .crystal-ball:active, .crystal-ball:focus {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out; }
+
+mt-10 {
+  margin-top: 10rem; }
