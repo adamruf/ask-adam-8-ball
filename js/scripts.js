@@ -12,7 +12,7 @@ var myArray = [
   , 'I think you should seek medical advice on that one.'
   , 'I recommend getting legal help with that one.'
   , 'What did Alexa say when you asked her?'
-  , 'Yes, and then we can finally make a dent in our Netflix queues!'
+  , 'Yes, and then we can watch Netflix!'
   , 'WDYT?'
   , 'Why?'
   , 'Try cutting the characters in your question by 50% and then ask again.'
