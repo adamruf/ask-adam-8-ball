@@ -6,7 +6,8 @@ body {
   font-family: 'Chewy', cursive;
   height: 100vh;
   min-height: 900px;
-  padding: calc(2rem + 5vw); }
+  padding: calc(2rem + 5vw);
+  padding-bottom: 0; }
   body::before {
     content: '';
     position: absolute;
