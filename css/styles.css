@@ -45,6 +45,7 @@ a {
   transition: all 0.3s ease-in-out;
   width: 95%; }
   .crystal-ball:hover, .crystal-ball:active, .crystal-ball:focus {
+    outline: none;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out; }
 

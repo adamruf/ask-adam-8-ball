@@ -48,9 +48,16 @@ var myArray = [
 
 function showanswer(){
   var rand = Math.floor(Math.random() * myArray.length);
-  document.getElementById('answer').innerHTML = myArray[rand];
+  document.getElementById( 'answer' ).innerHTML = myArray[rand];
 }
 
-$(".js-crystal-ball" ).on("click",function() {
+$( ".js-crystal-ball" ).on( "click", function() {
   showanswer();
+});
+
+// Event handler for keyboard accessibility
+$( ".js-crystal-ball" ).on( "keydown",function(e) {
+  if (( e.which == 13 ) || ( e.which == 32 )) {
+    showanswer();
+  }
 });

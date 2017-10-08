@@ -25,6 +25,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/img\/adam-emote-v2.png": {
+		"ft": 32768,
+		"iS": 26842,
+		"oA": 0,
+		"oAP": "\/img\/adam-emote-v2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/adam-emote.png": {
 		"ft": 32768,
 		"iS": 13452,
@@ -55,6 +66,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/Desktop.png": {
+		"ft": 32768,
+		"iS": 53006,
+		"oA": 0,
+		"oAP": "\/img\/Desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
